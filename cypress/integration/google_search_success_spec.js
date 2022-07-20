@@ -4,7 +4,7 @@ describe('Google success search', () => {
         cy.visit('https://www.google.com') 
     })
 
-    it('Search for a video', () => {
+    it("Search for a video", () => {
         cy.get('[name="q"]')
         .type('never gonna give you up youtube')
         .should('have.value', 'never gonna give you up youtube')
