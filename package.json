@@ -4,7 +4,7 @@
   "description": "Simple Cypress project",
   "main": "index.js",
   "dependencies": {
-    "cypress": "^4.8.0"
+    "cypress": "^5.0.0"
   },
   "devDependencies": {
     "cypress-multi-reporters": "^1.4.0",
